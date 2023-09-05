@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <header>
+            <h1>TODO APP...</h1><br>
+            <div id="inputfeald">
+                <form class="form" id="form">
+                    <input type="text " class="aling" id="name" required placeholder="Add Your Task">
+                    <input type="date" class="aling" id="date">
+                    <input type="time" class="aling" id="time">
+                    <input type="submit" class="aling" id="submit" value="Add">
+                </form>
+            </div>
+        </header> 
+
+        <div id="content">
+        </div>
+    
+        <div class="backdrop hiddn" id="backdrop"></div>
+        
+            <div class="update hiddn" id="update">     
+                <h1>Edit Item</h1>
+                <form id="update_form">
+                    <input type="text" id="Update_name"  placeholder="Add Your Task">
+                    <input type="date" id="Update_date">
+                    <input type="time" id="Update_time">
+                    <input type="submit" id="UP-submit" value="Save">
+                </form>
+                
+            </div>
+        </div>
+         
+    </div>
+        
+
+
+
+ <script src="script.js"></script>
+
+</body>
+
+</html>
