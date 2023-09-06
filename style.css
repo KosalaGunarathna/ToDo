@@ -1,6 +1,4 @@
 body{
-    /* background: rgb(36,10,10);
-    background: radial-gradient(circle, #bdc3c7 0%, rgba(170,150,237,1) 100%); */
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
@@ -291,14 +289,13 @@ form{
     .Tbtn {
         width: 100%;
         margin-top: 5px;
+        margin-left: 0;
     }
 
     .main {
         margin-left: 0%;
         margin-right: 0%;
+        height: auto;
     }
 
-    .main{
-        padding: 0;
-    }
 }
