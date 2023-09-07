@@ -2,7 +2,6 @@ const contents = document.getElementById("content");
 const UP_submit = document.getElementById('UP-submit');
 const update = document.getElementById("update");
 const backdrop = document.getElementById("backdrop");
-
 const form = document.getElementById("form");
 const update_form = document.getElementById("update_form");
 const Tname = document.getElementById("name");
@@ -70,16 +69,15 @@ function renderlist() {
     const listItems = todos.map((item) => `
     <div class="taskbox">
         <div class="TTname">
-        <div class="Tname"><p>${item.title}</p></div>
+            <div class="Tname"><p>${item.title}</p></div>
         </div>
         <div class="TTdt">
-        <div class="Tdate " ><p>${item.date}</p></div>
-        <div class="ttime " ><p>${item.time}</p></div>
+            <div class="Tdate" ><p>${item.date}</p></div>
+            <div class="ttime" ><p>${item.time}</p></div>
         </div>
         <button class="edit Tbtn" onClick="UpdateItem(${item.id})">Edit</button>
         <button class="delete Tbtn" onClick=deleteItem(${item.id})>Delete</button>
-        </div>
-    </div>`);
+        </div>`);
  
     let alltodos = listItems.reduce((totle, curr) => totle + curr, "");
     contents.innerHTML = alltodos;
