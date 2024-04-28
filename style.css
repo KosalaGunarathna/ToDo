@@ -207,8 +207,11 @@ form{
      {
         width: 48%;
         display: inline-block;
-        margin-bottom: 5px;
+        
     }
+     #date{
+        margin-bottom: 5px;
+     }
 
     #time,
     #submit,#UP-submit,#Update_time
