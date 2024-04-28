@@ -213,6 +213,10 @@ form{
         margin-bottom: 5px;
      }
 
+     #time{
+        margin-top: 3px;
+     }
+
     #time,
     #submit,#UP-submit,#Update_time
    {
